@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.my.okhttpdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get请求"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post请求"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_post_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post请求发送string"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_post_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传文件(单个文件)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_post_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传文件(多个文件,表单形式)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载文件"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
